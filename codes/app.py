@@ -7,43 +7,6 @@ import numpy as np
 from scipy.special import softmax
 from transformers import pipeline
 
-# Custom CSS for personalization
-custom_css = """
-<style>
-body {
-    background-color: #f0f0f0; /* Change background color to gray */
-    font-family: 'Arial', sans-serif;
-}
-h1 {
-    color: #0078d4;
-    font-size: 36px;
-    padding: 20px 0;
-}
-h2 {
-    color: #004578;
-    font-size: 24px;
-    padding: 10px 0;
-}
-.form-control {
-    font-size: 18px;
-    padding: 8px 16px;
-}
-.btn-primary {
-    background-color: #0078d4;
-    color: white;
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.btn-primary:hover {
-    background-color: #005a9e;
-}
-</style>
-"""
-st.markdown(custom_css, unsafe_allow_html=True)
-
-
 #Set the page configs
 st.set_page_config(page_title='Sentiments Analysis',page_icon='😎',layout='wide')
 
