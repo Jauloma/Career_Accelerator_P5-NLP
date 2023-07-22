@@ -13,7 +13,7 @@ st.set_page_config(page_title='Sentiments Analysis',page_icon='😎',layout='wid
 #welcome Animation
 com.iframe("https://embed.lottiefiles.com/animation/149093")
 st.markdown("<h1 style='text-align: center'> Covid Vaccine Tweet Sentiments </h1>",unsafe_allow_html=True)
-st.write("<h2 style='font-size: 24px;'> These models were trained to detect how a user feel about the covid vaccines based on their tweets(text) </h2>",unsafe_allow_html=True)
+st.write("<h2 style='font-size: 24px;'> These models were trained to detect how a user feels about the covid vaccines based on their tweets(text) </h2>",unsafe_allow_html=True)
 
 #Create a form to take user inputs
 with st.form(key='tweet',clear_on_submit=True):
