@@ -4,6 +4,16 @@
 
 This Streamlit application aims to analyze sentiments in tweets related to COVID vaccines using pre-trained NLP models. The application allows users to input their own tweet or choose from provided examples to predict the sentiment of the text. The sentiment analysis is based on three models: BERT, DistilBERT, and RoBERTa, which are selected by the user. 
 
+## Table of contents
+- Summary
+- Prerequisites
+- How to Use
+- Application Layout
+- Sentiment Analysis
+- Customization
+- Conclusion
+- Resources
+- 
 ## Summary
 
 | Code | Project Name | Published Article | Deployed App |
@@ -77,7 +87,7 @@ The application displays different Lottie animations based on the predicted sent
 
 This Streamlit application serves as a powerful tool to quickly analyze sentiments in COVID vaccine-related tweets using state-of-the-art NLP models. By providing a user-friendly interface and pre-trained models, it allows users to gain insights into public sentiments towards COVID vaccines in real-time. Additionally, the code can be easily customized and extended to incorporate more models or different analysis tasks in the future.
 
-## Ressources
+## Resources
 1. [Quick intro to NLP](https://www.youtube.com/watch?v=CMrHM8a3hqw)
 1. [Getting Started With Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
 1. [Fine-tuning a Neural Network explained](https://www.youtube.com/watch?v=5T-iXNNiwIs)
@@ -86,11 +96,22 @@ This Streamlit application serves as a powerful tool to quickly analyze sentimen
 <!-- 1. [](https://www.youtube.com/)
 1. [](https://www.youtube.com/) -->
 
-## Contact
-Jacob O. Jaroya
+## Acknowledgements
+We are glad and appreciate the opportunity given to us by Azubi Afica to participate in this endeavour.
+
+## Contacts
+1. Jacob O. Jaroya
 
 jaroyajo@gmail.com
 
 https://www.linkedin.com/in/jjaroya/
 
 https://github.com/Jauloma/Career_Accelerator_P5-NLP
+
+2. Felix Kiprotich
+
+3. Sylvester Ampomah
+
+4. Kingsley Yaw Siedu
+
+5. Jedida M. Kisiang'Ani
