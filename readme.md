@@ -5,11 +5,11 @@
 This Streamlit application aims to analyze sentiments in tweets related to COVID vaccines using pre-trained NLP models. The application allows users to input their own tweet or choose from provided examples to predict the sentiment of the text. The sentiment analysis is based on three models: BERT, DistilBERT, and RoBERTa, which are selected by the user. 
 
 ## Summary
----------------------------------------------------------------------------
-|####Code#### |####Name####            | ####Published Article#### | ####Deployed App####                                                      |
----------------------------------------------------------------------------
-| #### LP5####  |#### Sentiments Analysis#### |                   |####  https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_App####
----------------------------------------------------------------------------
+#### ---------------------------------------------------------------------------
+#### |Code |Name               | Published Article   |Deployed App
+#### ---------------------------------------------------------------------------
+#### |LP5  |Sentiments Analysis|                     | https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_Ap|
+#### ---------------------------------------------------------------------------
 
 ## Prerequisites
 Before running the application, ensure you have the following dependencies installed:
