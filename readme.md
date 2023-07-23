@@ -1,34 +1,80 @@
-# Project : Natural Language Processing
+# Project : COVID Vaccine Tweet Sentiments Analysis
 
 ## Description
 
-This repository contains the ressources to start the NLP-related live project you shoud take. The below assignments will introduce you in Unstructured data exploitation, especially Natural Language Processing data, using ML. 
+This Streamlit application aims to analyze sentiments in tweets related to COVID vaccines using pre-trained NLP models. The application allows users to input their own tweet or choose from provided examples to predict the sentiment of the text. The sentiment analysis is based on three models: BERT, DistilBERT, and RoBERTa, which are selected by the user. 
 
-## Assignments
-Find the list of assignments below:
-- [Zindi NLP Challenge](/zindi_challenge/)
+## Summary
+---------------------------------------------------------------------------
+| Code |Name                | Published Article | Deployed App            |
+---------------------------------------------------------------------------
+| LP5  |Sentiments Analysis |                   | https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_App
+---------------------------------------------------------------------------
 
-## Setup
-Install the required packages to be able to run the evaluation locally.
+## Prerequisites
+Before running the application, ensure you have the following dependencies installed:
 
-You need to have [`Python3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's root (`root :: repo_name> ...`)  follow the steps below:
+- Python 3.6 or higher
+- Streamlit
+- Transformers
+- NumPy
+- SciPy
+You can install these packages using pip:
 
-- Windows:
-        
-        python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
+- pip install streamlit transformers numpy scipy
 
-- Linux & MacOs:
-        
-        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
+## How to Use
+1. Clone the repository and navigate to the project directory.
 
-The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
+2. Run the Streamlit application using the following command:
+        - streamlit run app.py
+        The application will open in your default web browser.
 
-1. **Create the Python's virtual environment** that isolates the required libraries of the project to avoid conflicts;
-2. **Activate the Python's virtual environment** so that the Python kernel & libraries will be those of the isolated environment;
-3. **Upgrade Pip, the installed libraries/packages manager** to have the up-to-date version that will work correctly;
-4. **Install the required libraries/packages** listed in the `requirements.txt` file so that it will be allow to import them into the python's scripts and notebooks without any issue.
+## Application Layout
+The application is designed to provide a user-friendly interface to analyze tweet sentiments. It consists of the following sections:
 
-**NB:** For MacOs users, please install `Xcode` if you have an issue.
+        1. Header Animation: A Lottie animation is displayed at the top of the page for a welcoming effect.
+
+        2. Page Title: A centered title "Covid Vaccine Tweet Sentiments" is displayed using a large font.
+
+        3. Description: A subheading "These models were trained to detect how a user feels about the covid vaccines based on their tweets(text)" provides a brief description of the application's purpose.
+
+        4. User Input Form: A form is provided to accept user inputs. Users can either type or copy-paste a tweet into the text area. If they cannot provide their own input, they can select one from the provided examples using the dropdown.
+
+        5. Model Selection: Users can choose from three pre-trained models (BERT, DistilBERT, and RoBERTa) to perform sentiment analysis on the tweet.
+
+        6. Predict Button: A "Predict" button is available for users to submit their input and analyze the sentiment.
+
+        7. Output Columns: Three columns are displayed to show the results of sentiment analysis:
+
+                - Sentiment Emoji: An animated emoji is displayed based on the predicted sentiment (positive, negative, or neutral).
+                - How this user feels about the vaccine: The predicted sentiment label (POSITIVE, NEGATIVE, or NEUTRAL) is shown.
+                - Confidence of this prediction: The confidence score of the prediction is displayed as a percentage.
+
+## Sentiment Analysis
+Once the user submits their input and selects a model, the application processes the text input using the selected model and displays the sentiment analysis results. The model predicts whether the input text reflects a positive, negative, or neutral sentiment towards COVID vaccines.
+
+The sentiment analysis is done by leveraging the Hugging Face Transformers library. The pipeline function is used to easily load the appropriate model for the selected sentiment classification task.
+
+## Customization
+
+To personalize the application further, you can modify the following aspects:
+
+### Background Color: 
+The background color is set to gray. You can change it to any desired color by updating the custom_css variable in the code.
+
+### Font Family: 
+The application uses the 'Arial' font family. You can change it to any other font family by updating the custom_css variable.
+
+### Page Title and Subheading: 
+You can modify the page title and subheading text to better suit your application.
+
+### Lottie Animations: 
+The application displays different Lottie animations based on the predicted sentiment. You can change the animations or remove them altogether by modifying the corresponding URL in the code.
+
+## Conclusion
+
+This Streamlit application serves as a powerful tool to quickly analyze sentiments in COVID vaccine-related tweets using state-of-the-art NLP models. By providing a user-friendly interface and pre-trained models, it allows users to gain insights into public sentiments towards COVID vaccines in real-time. Additionally, the code can be easily customized and extended to incorporate more models or different analysis tasks in the future.
 
 ## Ressources
 1. [Quick intro to NLP](https://www.youtube.com/watch?v=CMrHM8a3hqw)
@@ -38,3 +84,8 @@ The both long command-lines have a same structure, they pipe multiple commands u
 1. [Introduction to NLP: Playlist](https://www.youtube.com/playlist?list=PLM8wYQRetTxCCURc1zaoxo9pTsoov3ipY)
 <!-- 1. [](https://www.youtube.com/)
 1. [](https://www.youtube.com/) -->
+
+## Contact
+Jacob O. Jaroya
+jaroyajo@gmail.com
+https://www.linkedin.com/in/jjaroya/
