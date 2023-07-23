@@ -13,7 +13,9 @@ This Streamlit application aims to analyze sentiments in tweets related to COVID
 - Customization
 - Conclusion
 - Resources
-- 
+- Acknowledgements
+- Contacts
+
 ## Summary
 
 | Code | Project Name | Published Article | Deployed App |
