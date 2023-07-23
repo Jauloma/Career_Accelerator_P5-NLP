@@ -6,9 +6,9 @@ This Streamlit application aims to analyze sentiments in tweets related to COVID
 
 ## Summary
 ---------------------------------------------------------------------------
-|#### Code |#### Name            | #### Published Article | #### Deployed App            |
+|####Code#### |####Name####            | ####Published Article#### | ####Deployed App####                                                      |
 ---------------------------------------------------------------------------
-| #### LP5  |#### Sentiments Analysis |                   |####  https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_App
+| #### LP5####  |#### Sentiments Analysis#### |                   |####  https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_App####
 ---------------------------------------------------------------------------
 
 ## Prerequisites
