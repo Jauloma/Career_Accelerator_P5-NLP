@@ -20,7 +20,7 @@ This Streamlit application aims to analyze sentiments in tweets related to COVID
 
 | Code | Project Name | Published Article | Deployed App |
 |------------------|------------------|------------------|------------------|
-| LP5     |Sentiments Analysis     | Row 1 Cell 3     | https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_Ap     |
+| LP5     |Sentiments Analysis     | https://medium.com/jaroyajo/fine-tuning-sentiment-analysis-models-for-covid-vaccine-tweet-sentiments-a-comprehensive-guide-cb2eb391b61c    | https://huggingface.co/spaces/UholoDala/Jj_Sentiment_Analysis_Ap     |
 
 
 
