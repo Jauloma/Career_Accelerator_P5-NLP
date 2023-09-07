@@ -87,7 +87,7 @@ The application displays different Lottie animations based on the predicted sent
 
 ## Conclusion
 
-This Streamlit application serves as a powerful tool to quickly analyze sentiments in COVID vaccine-related tweets using state-of-the-art NLP models. By providing a user-friendly interface and pre-trained models, it allows users to gain insights into public sentiments towards COVID vaccines in real-time. Additionally, the code can be easily customized and extended to incorporate more models or different analysis tasks in the future.
+The Streamlit application serves as a powerful tool to quickly analyze sentiments in COVID vaccine-related tweets using state-of-the-art NLP models. By providing a user-friendly interface and pre-trained models, it allows users to gain insights into public sentiments towards COVID vaccines in real-time. Additionally, the code can be easily customized and extended to incorporate more models or different analysis tasks in the future.
 
 ## Resources
 1. [Quick intro to NLP](https://www.youtube.com/watch?v=CMrHM8a3hqw)
